@@ -4,3 +4,5 @@ const db = [
   {name: 'Bismuth', atomicNumber: 83, category: 'Post-Transition Metal', atomicMass: 208.98},
   {name: 'Niobium', atomicNumber: 41, category: 'Transition Metal', atomicMass: 92.90},
 ]
+
+module.exports = db
