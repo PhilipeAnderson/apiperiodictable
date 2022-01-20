@@ -150,18 +150,183 @@ const db = [
     radioactive: false
   },
   {
+    name: 'Sodium',
+    symbol: 'Na',
+    category: 'Alkali Metal', 
+    atomicNumberZ: 11, 
+    standardState: 'Solid',
+    atomicMass: 22.989,
+    discovered: {
+      by: 'Humphry Davy',
+      year: 1807
+    },
+    period: 3,
+    group: 1,
+    radioactive: false
+  },
+  {
+    name: 'Magnesium',
+    symbol: 'Mg',
+    category: 'Alkaline Earth Metal', 
+    atomicNumberZ: 12, 
+    standardState: 'Solid',
+    atomicMass: 24.305,
+    discovered: {
+      by: 'Joseph Black',
+      year: 1808
+    },
+    period: 3,
+    group: 2,
+    radioactive: false
+  },
+  {
+    name: 'Aluminum',
+    symbol: 'Al',
+    category: 'Post Transition Metal', 
+    atomicNumberZ: 13, 
+    standardState: 'Solid',
+    atomicMass: 26.981,
+    discovered: {
+      by: 'Hans Christian Ørsted',
+      year: 1824
+    },
+    period: 3,
+    group: 13,
+    radioactive: false
+  },
+  {
+    name: 'Silicon',
+    symbol: 'Si',
+    category: 'Metalloid', 
+    atomicNumberZ: 14, 
+    standardState: 'Solid',
+    atomicMass: 28.085,
+    discovered: {
+      by: 'Jöns Jacob Berzelius',
+      year: 1823
+    },
+    period: 3,
+    group: 14,
+    radioactive: false
+  },
+  {
+    name: 'Phosphorus',
+    symbol: 'P',
+    category: 'Nonmetal', 
+    atomicNumberZ: 15, 
+    standardState: 'Solid',
+    atomicMass: 30.973,
+    discovered: {
+      by: 'Hennig Brand',
+      year: 1669
+    },
+    period: 3,
+    group: 15,
+    radioactive: false
+  },
+  {
+    name: 'Sulfur',
+    symbol: 'S',
+    category: 'Nonmetal', 
+    atomicNumberZ: 16, 
+    standardState: 'Solid',
+    atomicMass: 32.076,
+    discovered: {
+      by: 'Chinese',
+      year: -2000
+    },
+    period: 3,
+    group: 16,
+    radioactive: false
+  },
+  {
+    name: 'Chlorine',
+    symbol: 'Cl',
+    category: 'Halogen', 
+    atomicNumberZ: 17, 
+    standardState: 'Gas',
+    atomicMass: 35.457,
+    discovered: {
+      by: 'Carl Wilhelm Scheele',
+      year: 1774
+    },
+    period: 3,
+    group: 17,
+    radioactive: false
+  },
+  {
+    name: 'Argon',
+    symbol: 'Ar',
+    category: 'Noble Gas', 
+    atomicNumberZ: 18, 
+    standardState: 'Gas',
+    atomicMass: 39.963,
+    discovered: {
+      by: 'Lord Rayleigh and William Ramsay',
+      year: 1894
+    },
+    period: 3,
+    group: 18,
+    radioactive: false
+  },
+  {
     name: '',
     symbol: '',
     category: '', 
-    atomicNumberZ: 4, 
-    standardState: 'Gas',
-    atomicMass: 9,
+    atomicNumberZ: 11, 
+    standardState: '',
+    atomicMass: 22.989,
     discovered: {
       by: '',
-      year: 1
+      year: 1807
     },
-    period: 2,
-    group: 2,
+    period: 3,
+    group: 1,
+    radioactive: false
+  },
+  {
+    name: '',
+    symbol: '',
+    category: '', 
+    atomicNumberZ: 11, 
+    standardState: '',
+    atomicMass: 22.989,
+    discovered: {
+      by: '',
+      year: 1807
+    },
+    period: 3,
+    group: 1,
+    radioactive: false
+  },
+  {
+    name: '',
+    symbol: '',
+    category: '', 
+    atomicNumberZ: 11, 
+    standardState: '',
+    atomicMass: 22.989,
+    discovered: {
+      by: '',
+      year: 1807
+    },
+    period: 3,
+    group: 1,
+    radioactive: false
+  },
+  {
+    name: '',
+    symbol: '',
+    category: '', 
+    atomicNumberZ: 11, 
+    standardState: '',
+    atomicMass: 22.989,
+    discovered: {
+      by: '',
+      year: 1807
+    },
+    period: 3,
+    group: 1,
     radioactive: false
   },
 ]
