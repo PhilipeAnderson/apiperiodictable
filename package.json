@@ -1,0 +1,8 @@
+{
+  "name": "apiperiodictable",
+  "version": "1.0.0",
+  "description": "Periodic table information api",
+  "main": "index.js",
+  "author": "Philipe Anderson",
+  "license": "MIT"
+}
