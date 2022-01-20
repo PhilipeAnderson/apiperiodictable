@@ -165,3 +165,5 @@ const db = [
     radioactive: false
   },
 ]
+
+module.exports = db;

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Periodic table information api",
   "main": "index.js",
-  "script": {
+  "scripts": {
     "start": "nodemon server.js"
   },
   "author": "Philipe Anderson",
