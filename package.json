@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Periodic table information api",
   "main": "index.js",
+  "script": {
+    "start": "nodemon index.js"
+  },
   "author": "Philipe Anderson",
   "license": "MIT",
   "dependencies": {
