@@ -4,7 +4,7 @@
   "description": "Periodic table information api",
   "main": "index.js",
   "script": {
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
   "author": "Philipe Anderson",
   "license": "MIT",
