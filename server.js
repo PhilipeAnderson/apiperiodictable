@@ -4,6 +4,6 @@ const port = process.env.PORT || 3333;
 
 const server = http.createServer(app);
 
-app.listen(port, () => {
+server.listen(port, () => {
   console.log('Started Server')
 });

@@ -5,4 +5,4 @@ const db = [
   {name: 'Niobium', atomicNumber: 41, category: 'Transition Metal', atomicMass: 92.90},
 ]
 
-module.exports = db
+module.exports = db;
