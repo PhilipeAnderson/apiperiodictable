@@ -15,7 +15,8 @@ export function Header() {
         />
         <nav>
           <a href="">Home</a>
-          <a href="">Posts</a>
+          <a href="">How Use?</a>
+          <a href="">Docs</a>
         </nav>
 
         <SignInButton />
