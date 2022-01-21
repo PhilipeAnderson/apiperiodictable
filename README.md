@@ -1,4 +1,7 @@
 # API Periodic Table
+<div align="center">
+  <img src="/assets/frontendReadme.JPG" alt="Image that represent Home page from project" width="1120px"/>
+</div>
 
 ## This API was born out of the need to use periodic table data.
 
@@ -146,7 +149,7 @@ The structure chosen was the JSON format as shown below.<br />
 
 
 <div align="center">
-  <img src="/assets/readmejson.png" alt="" width="240px"/>
+  <img src="/assets/readmejson.png" alt="image that represent data struct from backend" width="240px"/>
 </div>
 
 ## Next steps 😃
