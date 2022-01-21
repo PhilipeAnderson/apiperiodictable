@@ -85,4 +85,19 @@ The structure chosen was the JSON format as shown below.<br />
   <img src="/assets/readmejson.png" alt="" width="240px"/>
 </div>
 
+## Next steps 😃
+
+So that this application reaches a more professional level - IMPLEMENT:
+
+ * MongoDB Database.
+ * Buy your own domain.
+ * Update application to TypeScript.
+ * Insert more information for each element.
+ * Invite people to participate in the project.
+
+
+
+
+
+
 
