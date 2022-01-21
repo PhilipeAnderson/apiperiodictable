@@ -1,4 +1,4 @@
-# API Peridic Table
+# API Periodic Table
 
 ## This API was born out of the need to use periodic table data.
 
@@ -7,19 +7,34 @@ Despite being a simple model where it is only possible via GET, it was still ver
 I hope it will be useful in some project and that it may have contributed in some way to the dissemination of such rich content.<br />
 
 ## How to access?
-
-This project was built on NodeJS and hosted on Heroku.<br />
+### Backend
+The backend of this project was built on NodeJS and hosted on Heroku.<br />
 access: https://apiperiodictable.herokuapp.com/ <br />
 All API content is in the root path " .../ ", just access the link above and use the data through the GET method.<br />
+
+### Frontend
+The frontend is being built in NextJS using a payment API that in this case was linked to receive donations for the project.<br />
+This API is Stripe in version 20200827.<br />
+Hosting is provided by Vercel<br />
+access: https://apiperiodictable.vercel.app/
 
 ## Technologies used!
 
 The dependencies used in the project were:<br />
+### Backend
   * Express 
   * Cors 
   * Body-Parser
   * Morgan
   * Nodemon
+  
+ ### Frontend
+  * NextJS
+  * Typescript
+  * React-Dom
+  * React-Icons
+  * Stripe
+  * Sass
 
 It was still necessary to install the Heroku CLI<br />
 Only after these steps was it possible to see the API working :)
@@ -28,7 +43,7 @@ Below is a table with the technologies and their versions.
 <table border="1">
   <thead>
     <th>
-      TECH:
+      Backend
     </th>
     <th>
       NodeJS
@@ -74,6 +89,55 @@ Below is a table with the technologies and their versions.
   </tbody>
 </table>
 
+<table border="1">
+  <thead>
+    <th>
+      Frontend
+    </th>
+    <th>
+      NextJS
+    </th>
+    <th>
+      Typescript
+    </th>
+    <th>
+      React-Dom
+    </th>
+    <th>
+      React-Icons
+    </th>
+    <th>
+      Stripe
+    </th>
+   <th>
+      Sass
+    </th>
+  </thead>
+  <tbody>
+    <th>
+     VERSIONS:
+    </th>
+     <td>
+      12.0.8
+    </td>
+    <td>
+      4.5.5
+    </td>
+    <td>
+      17.0.2
+    </td>
+    <td>
+      4.3.1
+    </td>
+    <td>
+      8.199.0
+    </td>
+    <td>
+      1.49.0
+    </td>
+  </tbody>
+</table>
+
 ## And the Database ? 
 
 Don't be disappointed when I say that all API information is being printed by a const db.<br />
@@ -87,11 +151,11 @@ The structure chosen was the JSON format as shown below.<br />
 
 ## Next steps 😃
 
-So that this application reaches a more professional level - IMPLEMENT:
+So that this application reaches a more professional level:
 
  * MongoDB Database.
  * Buy your own domain.
- * Update application to TypeScript.
+ * Update application to TypeScript. (backend)
  * Insert more information for each element.
  * Invite people to participate in the project.
 
