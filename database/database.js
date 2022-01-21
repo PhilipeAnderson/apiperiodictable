@@ -270,63 +270,123 @@ const db = [
     radioactive: false
   },
   {
-    name: '',
-    symbol: '',
-    category: '', 
-    atomicNumberZ: 11, 
-    standardState: '',
-    atomicMass: 22.989,
+    name: 'Potassium',
+    symbol: 'K',
+    category: 'Alkali Metal', 
+    atomicNumberZ: 19, 
+    standardState: 'Solid',
+    atomicMass: 39.098,
     discovered: {
-      by: '',
+      by: 'Humphry Davy',
       year: 1807
     },
-    period: 3,
+    period: 4,
     group: 1,
     radioactive: false
   },
   {
-    name: '',
-    symbol: '',
-    category: '', 
-    atomicNumberZ: 11, 
-    standardState: '',
-    atomicMass: 22.989,
+    name: 'Calcium',
+    symbol: 'Ca',
+    category: 'Alkaline Earth Metal', 
+    atomicNumberZ: 20, 
+    standardState: 'Solid',
+    atomicMass: 40.078,
     discovered: {
-      by: '',
-      year: 1807
+      by: 'Humphry Davy',
+      year: 1808
     },
-    period: 3,
-    group: 1,
+    period: 4,
+    group: 2,
     radioactive: false
   },
   {
-    name: '',
-    symbol: '',
-    category: '', 
-    atomicNumberZ: 11, 
-    standardState: '',
-    atomicMass: 22.989,
+    name: 'Scandium',
+    symbol: 'Sc',
+    category: 'Transition Metal', 
+    atomicNumberZ: 21, 
+    standardState: 'SOlid',
+    atomicMass: 44.955,
     discovered: {
-      by: '',
-      year: 1807
+      by: 'Lars Fredrik Nilson',
+      year: 1879
     },
-    period: 3,
-    group: 1,
+    period: 4,
+    group: 3,
     radioactive: false
   },
   {
-    name: '',
-    symbol: '',
-    category: '', 
-    atomicNumberZ: 11, 
-    standardState: '',
-    atomicMass: 22.989,
+    name: 'Titanium',
+    symbol: 'T',
+    category: 'Transition Metal', 
+    atomicNumberZ: 22, 
+    standardState: 'Solid',
+    atomicMass: 47.867,
     discovered: {
-      by: '',
-      year: 1807
+      by: 'William Gregor',
+      year: 1791
     },
-    period: 3,
-    group: 1,
+    period: 4,
+    group: 4,
+    radioactive: false
+  },
+  {
+    name: 'Vanadium',
+    symbol: 'V',
+    category: 'Transition Metal', 
+    atomicNumberZ: 23, 
+    standardState: 'Solid',
+    atomicMass: 50.941,
+    discovered: {
+      by: 'Nils Gabriel Sefström',
+      year: 1830
+    },
+    period: 4,
+    group: 5,
+    radioactive: false
+  },
+  {
+    name: 'Chromium',
+    symbol: 'Cr',
+    category: 'Transition Metal', 
+    atomicNumberZ: 24, 
+    standardState: 'Solid',
+    atomicMass: 51.996,
+    discovered: {
+      by: 'Louis Nicolas Vauquelin',
+      year: 1794
+    },
+    period: 4,
+    group: 6,
+    radioactive: false
+  },
+  {
+    name: 'Manganese',
+    symbol: 'Mn',
+    category: 'Transition Metal', 
+    atomicNumberZ: 25, 
+    standardState: 'Solid',
+    atomicMass: 54.938,
+    discovered: {
+      by: '	Carl Wilhelm Scheele',
+      year: 1774
+    },
+    period: 4,
+    group: 7,
+    radioactive: false
+  },
+  {
+    name: 'Iron',
+    symbol: 'Fe',
+    category: 'Transition Metal', 
+    atomicNumberZ: 26, 
+    standardState: 'Solid',
+    atomicMass: 55.845,
+    discovered: {
+      by: 'Unknown',
+      year: -5000
+    },
+    period: 4,
+    group: 8,
     radioactive: false
   },
 ]
