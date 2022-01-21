@@ -4,7 +4,8 @@ export default function Home() {
   return (
     <>
       <Head>Home</Head>
-      <h1>Hello Dear 01</h1>
+      <h1>Peridic Table API</h1>
+      <h2>HOW USE?</h2>
     </>
   )
 }
