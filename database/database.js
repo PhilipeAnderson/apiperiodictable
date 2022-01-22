@@ -389,6 +389,173 @@ const db = [
     group: 8,
     radioactive: false
   },
+  {
+    name: 'Cobalt',
+    symbol: 'Co',
+    category: 'Transition Metal', 
+    atomicNumberZ: 27, 
+    standardState: 'Solid',
+    atomicMass: 58.933,
+    discovered: {
+      by: 'Georg Brandt',
+      year: 1735
+    },
+    period: 4,
+    group: 9,
+    radioactive: false
+  },
+  {
+    name: 'Georg Brandt',
+    symbol: 'Ni',
+    category: 'Transition Metal', 
+    atomicNumberZ: 28, 
+    standardState: 'Solid',
+    atomicMass: 58.693,
+    discovered: {
+      by: 'Axel Fredrik Cronstedt',
+      year: 1751
+    },
+    period: 4,
+    group: 10,
+    radioactive: false
+  },
+  {
+    name: 'Copper',
+    symbol: 'Cu',
+    category: 'Transition Metal', 
+    atomicNumberZ: 29, 
+    standardState: 'Solid',
+    atomicMass: 63.546,
+    discovered: {
+      by: 'Middle East',
+      year: -9000
+    },
+    period: 4,
+    group: 11,
+    radioactive: false
+  },
+  {
+    name: 'Zinc',
+    symbol: 'Zn',
+    category: 'Transition Metal', 
+    atomicNumberZ: 30, 
+    standardState: 'Solid',
+    atomicMass: 65.382,
+    discovered: {
+      by: 'Indian metallurgists',
+      year: -1000
+    },
+    period: 4,
+    group: 12,
+    radioactive: false
+  },
+  {
+    name: 'Gallium',
+    symbol: 'Ga',
+    category: 'Post-Transition Metal', 
+    atomicNumberZ: 31, 
+    standardState: 'SOlid',
+    atomicMass: 69.723,
+    discovered: {
+      by: 'Lecoq de Boisbaudran',
+      year: 1875
+    },
+    period: 4,
+    group: 13,
+    radioactive: false
+  },
+  {
+    name: 'Germanium',
+    symbol: 'Ge',
+    category: 'Metalloid', 
+    atomicNumberZ: 32, 
+    standardState: 'Solid',
+    atomicMass: 72.630,
+    discovered: {
+      by: 'Dmitri Mendeleev',
+      year: 1869
+    },
+    period: 4,
+    group: 14,
+    radioactive: false
+  },
+  {
+    name: 'Arsenic',
+    symbol: 'As',
+    category: 'Metalloid', 
+    atomicNumberZ: 33, 
+    standardState: 'Solid',
+    atomicMass: 74.921,
+    discovered: {
+      by: 'Arabic alchemists',
+      year: -0815
+    },
+    period: 4,
+    group: 15,
+    radioactive: false
+  },
+  {
+    name: 'Selenium',
+    symbol: 'Se',
+    category: 'Nonmetal', 
+    atomicNumberZ: 34, 
+    standardState: 'Solid',
+    atomicMass: 78.971,
+    discovered: {
+      by: 'Jöns Jakob Berzelius and Johann Gottlieb Gahn',
+      year: 1817
+    },
+    period: 4,
+    group: 16,
+    radioactive: false
+  },
+  {
+    name: 'Bromine',
+    symbol: 'Br',
+    category: 'Halogen', 
+    atomicNumberZ: 35, 
+    standardState: 'Liquid',
+    atomicMass: 55.845,
+    discovered: {
+      by: 'Antoine Jérôme Balard and Carl Jacob Löwig',
+      year: 1825
+    },
+    period: 4,
+    group: 17,
+    radioactive: false
+  },
+  {
+    name: 'Krypton',
+    symbol: 'Kr',
+    category: 'Noble Gas', 
+    atomicNumberZ: 36, 
+    standardState: 'Gas',
+    atomicMass: 83.798,
+    discovered: {
+      by: 'William Ramsay and Morris Travers',
+      year: 1898
+    },
+    period: 4,
+    group: 18,
+    radioactive: false
+  },
+  {
+    name: '',
+    symbol: '',
+    category: '', 
+    atomicNumberZ: 26, 
+    standardState: '',
+    atomicMass: 55.845,
+    discovered: {
+      by: '',
+      year: -5000
+    },
+    period: 4,
+    group: 8,
+    radioactive: false
+  },
+
+  
 ]
 
 module.exports = db;
