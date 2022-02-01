@@ -20,7 +20,6 @@ interface ElementsProps {
 export default function Howuse() {
 
   const [elements, setElements] = useState([]);
-  const arr = [1, 2, 3, 4, 5, 6, 7];
 
   useEffect(() => {
     periodic.get('https://apiperiodictable.herokuapp.com/')
@@ -29,21 +28,18 @@ export default function Howuse() {
 
 
   return (
-    <div className={styles.contentContainer}>
+    <main className={styles.container}>
       <h1>How Use</h1>
-      {/* {elements.map(element => (
-        console.log(element.name))
-        
-      )} */}
 
+      <section className={ styles.content }>
        {elements.map(element => (
-        <div key={element.atomicNumberZ}>
+         <div key={element.atomicNumberZ}>
           <h3>{element.name}</h3>
-          <p>{element.symbol}</p>
-          
+          <p>{element.symbol}</p> 
         </div>
        ))}
 
-    </div>
+       </section>
+    </main>
   )
 }
