@@ -454,7 +454,7 @@ const db = [
     symbol: 'Ga',
     category: 'Post-Transition Metal', 
     atomicNumberZ: 31, 
-    standardState: 'SOlid',
+    standardState: 'Solid',
     atomicMass: 69.72,
     discovered: {
       by: 'Lecoq de Boisbaudran',
@@ -809,6 +809,36 @@ const db = [
     group: 18,
     radioactive: false
   },
+  {
+    name: 'Caesium',
+    symbol: 'Cs',
+    category: 'Alkali Metal', 
+    atomicNumberZ: 55, 
+    standardState: 'Solid',
+    atomicMass: 132.905,
+    discovered: {
+      by: '	Robert Bunsen and Gustav Kirchhoff',
+      year: 1860
+    },
+    period: 6,
+    group: 1,
+    radioactive: false
+  },
+  {
+    name: 'Barium',
+    symbol: 'Ba',
+    category: 'Alkaline Earth Metal', 
+    atomicNumberZ: 56, 
+    standardState: 'Solid',
+    atomicMass: 137.327,
+    discovered: {
+      by: '	Carl Wilhelm Scheele',
+      year: 1772
+    },
+    period: 6,
+    group: 2,
+    radioactive: false
+  },
   // {
   //   name: '',
   //   symbol: '',
@@ -820,8 +850,248 @@ const db = [
   //     by: '',
   //     year: 
   //   },
-  //   period: 5,
-  //   group: ,
+  //   period: 6,
+  //   group: 3,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 4,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 5,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 6,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 7,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 8,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 9,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 10,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 11,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 12,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 13,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 14,
+  //   radioactive: false
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 15,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 16,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 17,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 6,
+  //   group: 18,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: '', 
+  //   atomicNumberZ: 4, 
+  //   standardState: '',
+  //   atomicMass: 1,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 1,
   //   radioactive: false
   // },
 
