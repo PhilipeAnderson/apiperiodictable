@@ -32,10 +32,12 @@ export default function Howuse() {
       <h1>How Use</h1>
 
       <section className={ styles.content }>
-       {elements.map(element => (
-         <div key={element.atomicNumberZ}>
-          <h3>{element.name}</h3>
-          <p>{element.symbol}</p> 
+       {elements.map((element, index) => (
+         <div key={index}>
+          <h4>{element.atomicNumberZ}</h4> 
+          <h1>{element.symbol}</h1> 
+          <h4>{element.atomicMass}</h4>
+          <h4>{element.name}</h4>
         </div>
        ))}
 
