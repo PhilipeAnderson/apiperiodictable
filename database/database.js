@@ -839,57 +839,462 @@ const db = [
     group: 2,
     radioactive: false
   },
+  {
+    name: 'Lanthanum',
+    symbol: 'La',
+    category: 'Lanthanide', 
+    atomicNumberZ: 57, 
+    standardState: 'Solid',
+    atomicMass: 138.905,
+    discovered: {
+      by: '	Carl Gustaf Mosander',
+      year: 1838
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Cerium',
+    symbol: 'Ce',
+    category: 'Lanthanide', 
+    atomicNumberZ: 58, 
+    standardState: 'Solid',
+    atomicMass: 140.116,
+    discovered: {
+      by: 'Martin Heinrich Klaproth, Jöns Jakob Berzelius and Wilhelm Hisinger',
+      year: 1838
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Praseodymium',
+    symbol: 'Pr',
+    category: 'Lanthanide', 
+    atomicNumberZ: 59, 
+    standardState: 'Solid',
+    atomicMass: 140.907,
+    discovered: {
+      by: 'Carl Auer von Welsbach',
+      year: 1885
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Neodymium',
+    symbol: 'Nd',
+    category: 'Lanthanide', 
+    atomicNumberZ: 60, 
+    standardState: 'Solid',
+    atomicMass: 144.242,
+    discovered: {
+      by: 'Carl Auer von Welsbach',
+      year: 1885
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Promethium',
+    symbol: 'Pm',
+    category: 'Lanthanide', 
+    atomicNumberZ: 61, 
+    standardState: 'Solid',
+    atomicMass: 144.912,
+    discovered: {
+      by: 'Charles D. Coryell, Jacob A. Marinsky and Lawrence E. Glendenin ',
+      year: 1945
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Samarium',
+    symbol: 'Sm',
+    category: 'Lanthanide', 
+    atomicNumberZ: 62, 
+    standardState: 'Solid',
+    atomicMass: 150.36,
+    discovered: {
+      by: 'Lecoq de Boisbaudran',
+      year: 1879
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Europium',
+    symbol: 'Eu',
+    category: 'Lanthanide', 
+    atomicNumberZ: 63, 
+    standardState: 'Solid',
+    atomicMass: 151.964,
+    discovered: {
+      by: 'Eugène-Anatole Demarçay',
+      year: 1901
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Gadolinium',
+    symbol: 'Gd',
+    category: 'Lanthanide', 
+    atomicNumberZ: 64, 
+    standardState: 'Solid',
+    atomicMass: 157.25,
+    discovered: {
+      by: 'Jean Charles Galissard de Marignac',
+      year: 1880
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Terbium',
+    symbol: 'Tb',
+    category: 'Lanthanide', 
+    atomicNumberZ: 65, 
+    standardState: 'Solid',
+    atomicMass: 158.925,
+    discovered: {
+      by: 'Carl Gustaf Mosander',
+      year: 1843
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Dysprosium',
+    symbol: 'Dy',
+    category: 'Lanthanide', 
+    atomicNumberZ: 66, 
+    standardState: 'Solid',
+    atomicMass: 162.500,
+    discovered: {
+      by: 'Lecoq de Boisbaudran',
+      year: 1886
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Holmium',
+    symbol: 'Ho',
+    category: 'Lanthanide', 
+    atomicNumberZ: 67, 
+    standardState: 'Solid',
+    atomicMass: 164.930,
+    discovered: {
+      by: 'Jacques-Louis Soret and Marc Delafontaine',
+      year: 1878
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Erbium',
+    symbol: 'Er',
+    category: 'Lanthanide', 
+    atomicNumberZ: 68, 
+    standardState: 'Solid',
+    atomicMass: 167.26,
+    discovered: {
+      by: '	Carl Gustaf Mosander',
+      year: 1843
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Thulium',
+    symbol: 'Tm',
+    category: 'Lanthanide', 
+    atomicNumberZ: 69, 
+    standardState: 'Solid',
+    atomicMass: 168.934,
+    discovered: {
+      by: 'Per Teodor Cleve',
+      year: 1879
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Ytterbium',
+    symbol: 'Yb',
+    category: 'Lanthanide', 
+    atomicNumberZ: 70, 
+    standardState: 'Solid',
+    atomicMass: 173.05,
+    discovered: {
+      by: 'Jean Charles Galissard de Marignac',
+      year: 1878
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Lutetium',
+    symbol: 'Lu',
+    category: 'Lanthanide', 
+    atomicNumberZ: 71, 
+    standardState: 'Solid',
+    atomicMass: 174.966,
+    discovered: {
+      by: 'Carl Auer von Welsbach and Georges Urbain',
+      year: 1906
+    },
+    period: 6,
+    group: 3.1,
+    radioactive: false
+  },
+  {
+    name: 'Hafnium',
+    symbol: 'Hf',
+    category: 'Transition Metal', 
+    atomicNumberZ: 72, 
+    standardState: 'Solid',
+    atomicMass: 178.49,
+    discovered: {
+      by: 'Dirk Coster and George de Hevesy',
+      year: 1922
+    },
+    period: 6,
+    group: 4,
+    radioactive: true
+  },
+  {
+    name: 'Tantalum',
+    symbol: 'Ta',
+    category: 'Transition Metal', 
+    atomicNumberZ: 73, 
+    standardState: 'Solid',
+    atomicMass: 180.947,
+    discovered: {
+      by: 'Anders Gustaf Ekeberg',
+      year: 1802
+    },
+    period: 6,
+    group: 5,
+    radioactive: false
+  },
+  {
+    name: 'Tungsten',
+    symbol: 'W',
+    category: 'Transition Metal', 
+    atomicNumberZ: 74, 
+    standardState: 'Solid',
+    atomicMass: 183.84,
+    discovered: {
+      by: 'Juan José Elhuyar and Fausto Elhuyar',
+      year: 1783
+    },
+    period: 6,
+    group: 6,
+    radioactive: false
+  },
+  {
+    name: 'Rhenium',
+    symbol: 'Re',
+    category: 'Transition Metal', 
+    atomicNumberZ: 75, 
+    standardState: 'Solid',
+    atomicMass: 186.207,
+    discovered: {
+      by: 'Walter Noddack, Ida Noddack and Otto Berg',
+      year: 1925
+    },
+    period: 6,
+    group: 7,
+    radioactive: false
+  },
+  {
+    name: 'Osmium',
+    symbol: 'Os',
+    category: 'Transition Metal', 
+    atomicNumberZ: 76, 
+    standardState: 'Solid',
+    atomicMass: 190.23,
+    discovered: {
+      by: 'Smithson Tennant',
+      year: 1803
+    },
+    period: 6,
+    group: 8,
+    radioactive: false
+  },
+  {
+    name: 'Iridium',
+    symbol: 'Ir',
+    category: 'Transition Metal', 
+    atomicNumberZ: 77, 
+    standardState: 'Solid',
+    atomicMass: 192.217,
+    discovered: {
+      by: 'Smithson Tennant',
+      year: 1803
+    },
+    period: 6,
+    group: 9,
+    radioactive: false
+  },
+  {
+    name: 'Platinum',
+    symbol: 'Pt',
+    category: 'Transition Metal', 
+    atomicNumberZ: 78, 
+    standardState: 'Solid',
+    atomicMass: 195.084,
+    discovered: {
+      by: 'Antonio de Ulloa',
+      year: 1735
+    },
+    period: 6,
+    group: 10,
+    radioactive: false
+  },
+  {
+    name: 'Gold',
+    symbol: 'Au',
+    category: 'Transition Metal', 
+    atomicNumberZ: 79, 
+    standardState: 'Solid',
+    atomicMass: 196.966,
+    discovered: {
+      by: 'In the Middle East',
+      year: -6000
+    },
+    period: 6,
+    group: 11,
+    radioactive: false
+  },
+  {
+    name: 'Mercury',
+    symbol: 'Hg',
+    category: 'Transition Metal', 
+    atomicNumberZ: 80, 
+    standardState: 'Liquid',
+    atomicMass: 200.592,
+    discovered: {
+      by: 'Ancient Egyptians',
+      year: -1500
+    },
+    period: 6,
+    group: 12,
+    radioactive: false
+  },
+  {
+    name: 'Thallium',
+    symbol: 'Tl',
+    category: 'Post-Transition Metal', 
+    atomicNumberZ: 81, 
+    standardState: 'Solid',
+    atomicMass: 204.383,
+    discovered: {
+      by: 'William Crookes',
+      year: 1861
+    },
+    period: 6,
+    group: 13,
+    radioactive: false
+  },
+  {
+    name: 'Lead',
+    symbol: 'Pb',
+    category: 'Post-Transition Metal', 
+    atomicNumberZ: 82, 
+    standardState: 'Solid',
+    atomicMass: 206.14,
+    discovered: {
+      by: 'Middle East',
+      year: -7000
+    },
+    period: 6,
+    group: 14,
+    radioactive: false
+  },
+  {
+    name: 'Bismuth',
+    symbol: 'Bi',
+    category: 'Post-Transition Metal', 
+    atomicNumberZ: 83, 
+    standardState: 'Solid',
+    atomicMass: 208.980,
+    discovered: {
+      by: 'Arabic alchemists',
+      year: -1000
+    },
+    period: 6,
+    group: 15,
+    radioactive: false
+  },
+  {
+    name: 'Polonium',
+    symbol: 'Po',
+    category: 'Metalloid', 
+    atomicNumberZ: 84, 
+    standardState: 'Solid',
+    atomicMass: 208.982,
+    discovered: {
+      by: 'Pierre and Marie Curie',
+      year: 1898
+    },
+    period: 6,
+    group: 16,
+    radioactive: false
+  },
+  {
+    name: 'Astatine',
+    symbol: 'At',
+    category: 'Halogen', 
+    atomicNumberZ: 85, 
+    standardState: 'Solid',
+    atomicMass: 209.987,
+    discovered: {
+      by: 'Dale R. Corson, Kenneth Ross MacKenzie and Emilio Segrè',
+      year: 1940
+    },
+    period: 6,
+    group: 17,
+    radioactive: false
+  },
+  {
+    name: 'Radon',
+    symbol: 'Rn',
+    category: 'Noble Gas', 
+    atomicNumberZ: 86, 
+    standardState: 'Gas',
+    atomicMass: 222.017,
+    discovered: {
+      by: 'Ernest Rutherford and Robert B. Owens',
+      year: 1899
+    },
+    period: 6,
+    group: 18,
+    radioactive: false
+  },
   // {
   //   name: '',
   //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 3,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 4,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 5,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 80, 
+  //   standardState: 'Solid',
   //   atomicMass: 1,
   //   discovered: {
   //     by: '',
@@ -897,201 +1302,6 @@ const db = [
   //   },
   //   period: 6,
   //   group: 6,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 7,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 8,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 9,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 10,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 11,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 12,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 13,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 14,
-  //   radioactive: false
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 15,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 16,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 17,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 6,
-  //   group: 18,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: '', 
-  //   atomicNumberZ: 4, 
-  //   standardState: '',
-  //   atomicMass: 1,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 1,
   //   radioactive: false
   // },
 
