@@ -1769,9 +1769,6 @@ const db = [
     group: 13,
     radioactive: true
   }
-  
-
-  
 ]
 
 module.exports = db;
