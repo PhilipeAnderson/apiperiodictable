@@ -1289,20 +1289,50 @@ const db = [
     group: 18,
     radioactive: false
   },
+  {
+    name: 'Francium',
+    symbol: 'Fr',
+    category: 'Alkali Metal', 
+    atomicNumberZ: 87, 
+    standardState: 'Solid',
+    atomicMass: 223.019,
+    discovered: {
+      by: 'Marguerite Perey',
+      year: 1939
+    },
+    period: 7,
+    group: 1,
+    radioactive: true
+  },
+  {
+    name: 'Radium',
+    symbol: 'Ra',
+    category: 'Alkaline Earth Metal', 
+    atomicNumberZ: 88, 
+    standardState: 'Solid',
+    atomicMass: 226.025,
+    discovered: {
+      by: 'Pierre and Marie Curie',
+      year: 1898
+    },
+    period: 7,
+    group: 2,
+    radioactive: true
+  },
   // {
   //   name: '',
   //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 80, 
+  //   category: 'Actinide', 
+  //   atomicNumberZ: 9, 
   //   standardState: 'Solid',
-  //   atomicMass: 1,
+  //   atomicMass: 22,
   //   discovered: {
   //     by: '',
   //     year: 
   //   },
-  //   period: 6,
-  //   group: 6,
-  //   radioactive: false
+  //   period: 7,
+  //   group: 3.,
+  //   radioactive: true
   // },
 
   
