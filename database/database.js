@@ -1319,21 +1319,382 @@ const db = [
     group: 2,
     radioactive: true
   },
+  {
+    name: 'Actinium',
+    symbol: 'Ac',
+    category: 'Actinide', 
+    atomicNumberZ: 89, 
+    standardState: 'Solid',
+    atomicMass: 227.027,
+    discovered: {
+      by: 'Friedrich Oskar Giesel',
+      year: 1899
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Thorium',
+    symbol: 'Th',
+    category: 'Actinide', 
+    atomicNumberZ: 90, 
+    standardState: 'Solid',
+    atomicMass: 232.038,
+    discovered: {
+      by: 'Jöns Jakob Berzelius',
+      year: 1829
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Protactinium',
+    symbol: 'Pa',
+    category: 'Actinide', 
+    atomicNumberZ: 91, 
+    standardState: 'Solid',
+    atomicMass: 231.035,
+    discovered: {
+      by: 'Kasimir Fajans and Oswald Helmuth Göhring',
+      year: 1913
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Uranium',
+    symbol: 'U',
+    category: 'Actinide', 
+    atomicNumberZ: 92, 
+    standardState: 'Solid',
+    atomicMass: 238.028,
+    discovered: {
+      by: 'Martin Heinrich Klaproth',
+      year: 1789
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Neptunium',
+    symbol: 'Np',
+    category: 'Actinide', 
+    atomicNumberZ: 93, 
+    standardState: 'Solid',
+    atomicMass: 237.048,
+    discovered: {
+      by: 'Edwin McMillan and Philip H. Abelson',
+      year: 1940
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Plutonium',
+    symbol: 'Pu',
+    category: 'Actinide', 
+    atomicNumberZ: 94, 
+    standardState: 'Solid',
+    atomicMass: 244.064,
+    discovered: {
+      by: 'Glenn T. Seaborg, Arthur Wahl, Joseph W. Kennedy, Edwin McMillan',
+      year: 1940
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Americium',
+    symbol: 'Am',
+    category: 'Actinide', 
+    atomicNumberZ: 95, 
+    standardState: 'Solid',
+    atomicMass: 243.061,
+    discovered: {
+      by: 'Glenn T. Seaborg, Ralph A. James, Leon O. Morgan, Albert Ghiorso',
+      year: 1944
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Curium',
+    symbol: 'Cm',
+    category: 'Actinide', 
+    atomicNumberZ: 96, 
+    standardState: 'Solid',
+    atomicMass: 247.070,
+    discovered: {
+      by: 'Glenn T. Seaborg, Ralph A. James, Albert Ghiorso',
+      year: 1944
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Berkelium',
+    symbol: 'Bk',
+    category: 'Actinide', 
+    atomicNumberZ: 97, 
+    standardState: 'Solid',
+    atomicMass: 247.070,
+    discovered: {
+      by: 'Lawrence Berkeley National Laboratory',
+      year: 1949
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Californium',
+    symbol: 'Cf',
+    category: 'Actinide', 
+    atomicNumberZ: 98, 
+    standardState: 'Solid',
+    atomicMass: 251.079,
+    discovered: {
+      by: 'Lawrence Berkeley National Laboratory',
+      year: 1950 
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Einsteinium',
+    symbol: 'Es',
+    category: 'Actinide', 
+    atomicNumberZ: 99, 
+    standardState: 'Solid',
+    atomicMass: 252.083,
+    discovered: {
+      by: 'Lawrence Berkeley National Laboratory',
+      year: 1952
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Fermium',
+    symbol: 'Fm',
+    category: 'Actinide', 
+    atomicNumberZ: 100, 
+    standardState: 'Solid',
+    atomicMass: 257.095,
+    discovered: {
+      by: 'Lawrence Berkeley National Laboratory',
+      year: 1952
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Mendelevium',
+    symbol: 'Md',
+    category: 'Actinide', 
+    atomicNumberZ: 101, 
+    standardState: 'Solid',
+    atomicMass: 258.098,
+    discovered: {
+      by: 'Lawrence Berkeley National Laboratory',
+      year: 1955
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Nobelium',
+    symbol: 'No',
+    category: 'Actinide', 
+    atomicNumberZ: 102, 
+    standardState: 'Solid',
+    atomicMass: 259.101,
+    discovered: {
+      by: 'Joint Institute for Nuclear Research',
+      year: 1966
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
+  {
+    name: 'Lawrencium',
+    symbol: 'Lr',
+    category: 'Actinide', 
+    atomicNumberZ: 103, 
+    standardState: 'Solid',
+    atomicMass: 266.120,
+    discovered: {
+      by: 'Lawrence Berkeley National Laboratory and Joint Institute for Nuclear Research',
+      year: 1961
+    },
+    period: 7,
+    group: 3.2,
+    radioactive: true
+  },
   // {
   //   name: '',
   //   symbol: '',
-  //   category: 'Actinide', 
-  //   atomicNumberZ: 9, 
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
   //   standardState: 'Solid',
-  //   atomicMass: 22,
+  //   atomicMass: 27,
   //   discovered: {
   //     by: '',
   //     year: 
   //   },
   //   period: 7,
-  //   group: 3.,
+  //   group: 4,
   //   radioactive: true
   // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  // {
+  //   name: '',
+  //   symbol: '',
+  //   category: 'Transition Metal', 
+  //   atomicNumberZ: 1, 
+  //   standardState: 'Solid',
+  //   atomicMass: 27,
+  //   discovered: {
+  //     by: '',
+  //     year: 
+  //   },
+  //   period: 7,
+  //   group: 4,
+  //   radioactive: true
+  // },
+  
 
   
 ]
