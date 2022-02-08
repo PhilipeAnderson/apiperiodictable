@@ -1544,156 +1544,231 @@ const db = [
     group: 3.2,
     radioactive: true
   },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
-  // {
-  //   name: '',
-  //   symbol: '',
-  //   category: 'Transition Metal', 
-  //   atomicNumberZ: 1, 
-  //   standardState: 'Solid',
-  //   atomicMass: 27,
-  //   discovered: {
-  //     by: '',
-  //     year: 
-  //   },
-  //   period: 7,
-  //   group: 4,
-  //   radioactive: true
-  // },
+  {
+    name: 'Rutherfordium',
+    symbol: 'Rf',
+    category: 'Transition Metal', 
+    atomicNumberZ: 104, 
+    standardState: 'Solid',
+    atomicMass: 267.122,
+    discovered: {
+      by: 'Joint Institute for Nuclear Research and Lawrence Berkeley National Laboratory',
+      year: 1964
+    },
+    period: 7,
+    group: 4,
+    radioactive: true
+  },
+  {
+    name: 'Dubnium',
+    symbol: 'Db',
+    category: 'Transition Metal', 
+    atomicNumberZ: 105, 
+    standardState: 'Solid',
+    atomicMass: 268.126,
+    discovered: {
+      by: 'Lawrence Berkeley Laboratory and the Joint Institute for Nuclear Research',
+      year: 1970
+    },
+    period: 7,
+    group: 5,
+    radioactive: true
+  },
+  {
+    name: 'Seaborgium',
+    symbol: 'Sg',
+    category: 'Transition Metal', 
+    atomicNumberZ: 106, 
+    standardState: 'Solid',
+    atomicMass: 269.128,
+    discovered: {
+      by: 'Lawrence Berkeley National Laboratory',
+      year: 1974
+    },
+    period: 7,
+    group: 6,
+    radioactive: true
+  },
+  {
+    name: 'Bohrium',
+    symbol: 'Bh',
+    category: 'Transition Metal', 
+    atomicNumberZ: 107, 
+    standardState: 'Solid',
+    atomicMass: 270.133,
+    discovered: {
+      by: 'Gesellschaft für Schwerionenforschung',
+      year: 1981
+    },
+    period: 7,
+    group: 7,
+    radioactive: true
+  },
+  {
+    name: 'Hassium',
+    symbol: 'Hs',
+    category: 'Transition Metal', 
+    atomicNumberZ: 108, 
+    standardState: 'Solid',
+    atomicMass: 269.133,
+    discovered: {
+      by: 'Gesellschaft für Schwerionenforschung',
+      year: 1984
+    },
+    period: 7,
+    group: 8,
+    radioactive: true
+  },
+  {
+    name: 'Meitnerium',
+    symbol: 'Mt',
+    category: 'Transition Metal', 
+    atomicNumberZ: 109, 
+    standardState: 'Solid',
+    atomicMass: 277.154,
+    discovered: {
+      by: 'Gesellschaft für Schwerionenforschung',
+      year: 1982
+    },
+    period: 7,
+    group: 9,
+    radioactive: true
+  },
+  {
+    name: 'Darmstadtium',
+    symbol: 'Ds',
+    category: 'Transition Metal', 
+    atomicNumberZ: 110, 
+    standardState: 'Solid',
+    atomicMass: 282.166,
+    discovered: {
+      by: 'Gesellschaft für Schwerionenforschung',
+      year: 1994
+    },
+    period: 7,
+    group: 10,
+    radioactive: true
+  },
+  {
+    name: 'Roentgenium',
+    symbol: 'Rg',
+    category: 'Transition Metal', 
+    atomicNumberZ: 111, 
+    standardState: 'Solid',
+    atomicMass: 282.169,
+    discovered: {
+      by: 'Gesellschaft für Schwerionenforschung',
+      year: 1994
+    },
+    period: 7,
+    group: 11,
+    radioactive: true
+  },
+  {
+    name: 'Copernicium',
+    symbol: 'Cn',
+    category: 'Transition Metal', 
+    atomicNumberZ: 112, 
+    standardState: 'Solid',
+    atomicMass: 286.179,
+    discovered: {
+      by: 'Gesellschaft für Schwerionenforschung',
+      year: 1996
+    },
+    period: 7,
+    group: 12,
+    radioactive: true
+  },
+  {
+    name: 'Nihonium',
+    symbol: 'Nh',
+    category: 'Post-Transition Metal', 
+    atomicNumberZ: 113, 
+    standardState: 'Solid',
+    atomicMass: 286.182,
+    discovered: {
+      by: 'Riken - Japan, first undisputed claim 2004 and JINR - Russia and Livermore - US, first announcement 2003',
+      year: 2004
+    },
+    period: 7,
+    group: 13,
+    radioactive: true
+  },
+  {
+    name: 'Flerovium',
+    symbol: 'Fl',
+    category: 'Post-Transition Metal', 
+    atomicNumberZ: 114, 
+    standardState: 'Solid',
+    atomicMass: 290.192,
+    discovered: {
+      by: '	Joint Institute for Nuclear Research JINR and Lawrence Livermore National Laboratory LLNL 1998',
+      year: 1998
+    },
+    period: 7,
+    group: 14,
+    radioactive: true
+  },
+  {
+    name: 'Moscovium',
+    symbol: 'Mc',
+    category: 'Post-Transition Metal', 
+    atomicNumberZ: 115, 
+    standardState: 'Solid',
+    atomicMass: 290.196,
+    discovered: {
+      by: 'Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory',
+      year: 2003
+    },
+    period: 7,
+    group: 15,
+    radioactive: true
+  },
+  {
+    name: 'Livermorium',
+    symbol: 'Lv',
+    category: 'Post-Transition Metal', 
+    atomicNumberZ: 116, 
+    standardState: 'Solid',
+    atomicMass: 293.205,
+    discovered: {
+      by: 'Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory',
+      year: 2000
+    },
+    period: 7,
+    group: 16,
+    radioactive: true
+  },
+  {
+    name: 'Tennessine',
+    symbol: 'Te',
+    category: 'Halogen', 
+    atomicNumberZ: 117, 
+    standardState: 'Solid',
+    atomicMass: 294.211,
+    discovered: {
+      by: 'Joint Institute for Nuclear Research, Lawrence Livermore National Laboratory, Vanderbilt University and Oak Ridge National Laboratory',
+      year: 2009
+    },
+    period: 7,
+    group: 17,
+    radioactive: true
+  },
+  {
+    name: 'Oganesson',
+    symbol: 'Og',
+    category: 'Noble Gas', 
+    atomicNumberZ: 118, 
+    standardState: 'Gas',
+    atomicMass: 295.216,
+    discovered: {
+      by: 'Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory',
+      year: 2002
+    },
+    period: 7,
+    group: 13,
+    radioactive: true
+  }
   
 
   
