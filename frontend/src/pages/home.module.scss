@@ -1,12 +1,14 @@
 .contentContainer {
-  max-width: 1120px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 40px auto;
   padding: 0 2rem;
   height: calc(100vh - 5rem);
 
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+
+
 }
 
 .hero {
@@ -42,5 +44,9 @@
 
   button {
     margin-top: 1.3rem;
+  }
+
+  @media(max-width: 800px){
+    height: 5px;
   }
 }

@@ -1,6 +1,9 @@
 .container {
-  max-width: 100%;
-  margin: 2rem;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 2rem;
+  height: calc(100vh - 5rem);
+  
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
