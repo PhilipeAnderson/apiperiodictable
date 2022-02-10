@@ -21,6 +21,19 @@ This API is Stripe in version 20200827.<br />
 Hosting is provided by Vercel<br />
 access: https://apiperiodictable.vercel.app/
 
+## How Use
+### Super Easy
+Just use tradicional methods of query a JSON document, you can set with axios or fetchAPI for javascript for exemple.
+The url for query api is: https://apiperiodictable.herokuapp.com/ she is a JSON format.
+<br /><br />
+
+<div align="center">
+  <img src="/assets/fetchapi.png" alt="example the use with fetch" width="560px" />
+  <br /><br />
+  <img src="/assets/axios.png" alt="example the use with axios" width="560px"/>
+</div>
+<br/><br />
+
 ## Technologies used!
 
 The dependencies used in the project were:<br />
