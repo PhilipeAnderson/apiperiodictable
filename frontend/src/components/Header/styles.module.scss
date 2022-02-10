@@ -1,7 +1,6 @@
 .headerContainer {
   height: 5rem;
   border-bottom: 1px solid var(--gray-300);
-
 }
 
 .headerContent {
@@ -14,9 +13,9 @@
   align-items: center;
 
   nav {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     height: 5rem;
-
+    max-width: 250px;
     a {
       display: inline-block;
       position: relative;
@@ -50,16 +49,6 @@
         left: 0;
         background: var(--yellow-500);
       }
-
-      @media (max-width: 720px) {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: column;
-
-        margin: 0 auto;
-      }
-
     }
 
   }

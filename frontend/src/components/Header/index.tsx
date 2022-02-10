@@ -8,16 +8,17 @@ export function Header() {
   return(
     <header className={ styles.headerContainer }>
       <div className={ styles.headerContent }>
-        <Image
-          src="/img/logo.png" 
-          alt="logo from API Periodic Table"
-          width={70}
-          height={70}
-        />
+        <Link href="/">
+          <Image
+            src="/img/logo.png" 
+            alt="logo from API Periodic Table"
+            width={70}
+            height={70}
+          />
+        </Link>
+        
         <nav>
-          <Link href="/">Home</Link>
-          <Link href="/howuse">How Use?</Link>
-          <Link href="/docs">Docs</Link>
+          <Link href="/howuse">HowUse?</Link>
         </nav>
 
         <SignInButton />
