@@ -31,6 +31,18 @@ export default function Howuse() {
     <main className={styles.container}>
       <h1>How Use</h1>
 
+      <div>
+        <h2>Super Easy</h2>
+        <p>
+          Just use tradicional methods of query a JSON document, you can set with axios or fetchAPI for javascript for exemple.
+          The url for query api is: https://apiperiodictable.herokuapp.com/ she is a Json format.
+        </p>
+        <div>
+          <img src="/img/fetchapi.png" alt="example the use with fetch" />
+          <img src="/img/axios.png" alt="example the use with axios" />
+        </div>
+      </div>
+
       <section className={ styles.content }>
        {elements.map((element, index) => (
          <div key={index}>
