@@ -1,9 +1,20 @@
 # API Periodic Table
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Philipe-Js" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  <img align="center" alt="Philipe-Ts" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+  <img align="center" alt="Philipe-Node" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Philipe-React" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+</div>
+
+<br />
+
+## This API was born out of the need to use periodic table data.
 <div align="center">
   <img src="/assets/frontendReadme.JPG" alt="Image that represent Home page from project" width="1120px"/>
 </div>
 
-## This API was born out of the need to use periodic table data.
+<br />
 
 After scouring the internet for some API's to consume data from a periodic table and not finding it, I decided to create my own API.<br />
 Despite being a simple model where it is only possible via GET, it was still very challenging.<br />
