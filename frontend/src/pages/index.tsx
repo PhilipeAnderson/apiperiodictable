@@ -2,6 +2,7 @@ import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import { SubscribeButton } from '../components/SubscribeButton';
+import { BuyMeACoffee } from '../components/BuyMeACoffee';
 import { stripe } from '../services/stripe';
 
 import styles from './home.module.scss';
@@ -22,7 +23,8 @@ export default function Home({ product }: HomeProps) {
           <span>🧪 Hey student</span>
           <h1>All the elements from <span>Periodic</span><br />Table :)</h1>
           <p><span>Super easy</span> for you use in your projects <span>through by API</span></p>
-          <SubscribeButton priceId={ product.priceId } amount={product.amount}/>
+          <BuyMeACoffee />
+          {/* <SubscribeButton priceId={ product.priceId } amount={product.amount}/> */}
         </section>
 
         <Image 
