@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { periodic } from '../services/periodicTable';
+import { Loading } from '../components/Loading';
 import styles from './howuse.module.scss';
 
 interface ElementsProps {
@@ -59,7 +60,7 @@ export default function Howuse() {
           <h4>{element.name}</h4>
         </div>
        ))}
-
+        {!removeLoading && <Loading />}
        </section>
     </main>
   )

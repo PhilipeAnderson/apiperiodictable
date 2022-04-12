@@ -1,5 +1,5 @@
-import loading from '../../../public/loading.gif';
-import styles from 'styles.module.css';
+import loading from '../../../public/img/loading.gif';
+//import styles from 'styles.module.css';
 
 export const Loading = () => {
   return(
