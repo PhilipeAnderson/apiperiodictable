@@ -20,11 +20,19 @@ interface ElementsProps {
 export default function Howuse() {
 
   const [elements, setElements] = useState([]);
+  const [removeLoading, setRemoveLoading] = useState(false);
 
   useEffect(() => {
-    periodic.get('https://apiperiodictable.herokuapp.com/')
-      .then(response => setElements(response.data))
+    setTimeout(() => {
+      periodic.get('https://apiperiodictable.herokuapp.com/')
+      .then(response => {
+        setElements(response.data)
+        setRemoveLoading(true)
+      })
+    }, 2000)
   }, [])
+
+
 
 
   return (
@@ -36,10 +44,10 @@ export default function Howuse() {
           Just use tradicional methods of query a JSON document, you can set with axios or fetchAPI for javascript for exemple.
           The url for query api is: https://apiperiodictable.herokuapp.com/ she is a JSON format.
         </p>
-        <div>
+        {/* <div>
           <img src="/img/fetchapi.png" alt="example the use with fetch" />
           <img src="/img/axios.png" alt="example the use with axios" />
-        </div>
+        </div> */}
       </div>
 
       <section className={ styles.content }>
