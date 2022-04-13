@@ -10,7 +10,7 @@ export function Header() {
       <div className={ styles.headerContent }>
         <Link href="/">
           <Image
-            src="/img/logo.png" 
+            src="/img/logoAnimated.gif" 
             alt="logo from API Periodic Table"
             width={70}
             height={70}
