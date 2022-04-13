@@ -10,7 +10,7 @@ export const Loading = () => {
         width={200}
         height={200}
       />
-      <p>...Waiting fot data</p>
+      <p>Loading</p>
     </div>
   )
 }
