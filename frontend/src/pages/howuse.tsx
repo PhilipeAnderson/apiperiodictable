@@ -30,7 +30,7 @@ export default function Howuse() {
         setElements(response.data)
         setRemoveLoading(true)
       })
-    }, 2000)
+    }, 5000)
   }, [])
 
 
@@ -51,6 +51,7 @@ export default function Howuse() {
         </div> */}
       </div>
 
+        {!removeLoading && <Loading />}
       <section className={ styles.content }>
        {elements.map((element, index) => (
          <div key={index}>
@@ -60,7 +61,6 @@ export default function Howuse() {
           <h4>{element.name}</h4>
         </div>
        ))}
-        {!removeLoading && <Loading />}
        </section>
     </main>
   )
