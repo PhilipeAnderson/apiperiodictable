@@ -17,7 +17,7 @@ interface HomeProps {
 
 export default function Home({ product }: HomeProps) {
   return (
-    <>
+    <div className={styles.background}>
       <Head>Home | API Periodic Table</Head>
       <main className={ styles.contentContainer }>
         <section className={ styles.hero }>
@@ -35,7 +35,7 @@ export default function Home({ product }: HomeProps) {
           height={350} 
         />
       </main>
-    </>
+    </div>
   )
 }
 
