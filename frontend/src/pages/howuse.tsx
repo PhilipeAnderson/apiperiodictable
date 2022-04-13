@@ -33,9 +33,6 @@ export default function Howuse() {
     }, 5000)
   }, [])
 
-
-
-
   return (
     <main className={styles.container}>
       <h1>How Use</h1>
@@ -51,7 +48,7 @@ export default function Howuse() {
         </div> */}
       </div>
 
-        {!removeLoading && <Loading />}
+      {!removeLoading && <Loading />}
       <section className={ styles.content }>
        {elements.map((element, index) => (
          <div key={index}>
