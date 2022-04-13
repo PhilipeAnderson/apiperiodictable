@@ -1,13 +1,7 @@
-import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import { SubscribeButton } from '../components/SubscribeButton';
 import { BuyMeACoffee } from '../components/BuyMeACoffee';
-import { stripe } from '../services/stripe';
-
 import styles from './home.module.scss';
-
-
 interface HomeProps {
   product: {
     priceId: string;
@@ -39,25 +33,31 @@ export default function Home({ product }: HomeProps) {
   )
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  const price = await stripe.prices.retrieve('price_1KKTTtDdIVojx2mYJjMxuVk8',{
-    expand: ['product']
-  })
+// Retirado para verificar possíveis erros em produção na Vercel
 
-  const product = {
-    priceId: price.id,
-    //amount: (price.unit_amount / 100)
-    amount: new Intl.NumberFormat('en-US',{
-      style: 'currency',
-      currency: 'USD'  
-    }).format(price.unit_amount / 100)
-  };
+//import { GetStaticProps } from 'next';
+//import { SubscribeButton } from '../components/SubscribeButton';
+//import { stripe } from '../services/stripe';
 
-  return{
-    props: {
-      product
-    },
-    revalidate: 60 * 60 * 24 // 24hours
+// export const getStaticProps: GetStaticProps = async () => {
+//   const price = await stripe.prices.retrieve('price_1KKTTtDdIVojx2mYJjMxuVk8',{
+//     expand: ['product']
+//   })
 
-  }
-}
+//   const product = {
+//     priceId: price.id,
+//     //amount: (price.unit_amount / 100)
+//     amount: new Intl.NumberFormat('en-US',{
+//       style: 'currency',
+//       currency: 'USD'  
+//     }).format(price.unit_amount / 100)
+//   };
+
+//   return{
+//     props: {
+//       product
+//     },
+//     revalidate: 60 * 60 * 24 // 24hours
+
+//   }
+// }
