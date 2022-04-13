@@ -29,7 +29,7 @@ export default function Home({ product }: HomeProps) {
         </section>
 
         <Image 
-          src="/img/logoAnimated.gif" 
+          src="/img/hero.gif" 
           alt="Scientist Crazy on Lab"
           width={350}
           height={350} 
