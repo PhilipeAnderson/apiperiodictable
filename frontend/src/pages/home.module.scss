@@ -6,7 +6,7 @@
 
 .contentContainer {
   max-width: 1120px;
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 0 2rem;
   height: calc(100vh - 5rem);
 
@@ -17,10 +17,12 @@
 
 .hero {
   max-width: 500px;
+  margin-top: 40px;
 
   > span {
     font-size: 1.5rem;
     font-weight: bold;
+    
   }
 
   h1 {
@@ -31,6 +33,7 @@
     
     span {
       color: var(--cyan-100);
+      //color: #fede00;
     }
   }
 
@@ -39,10 +42,15 @@
     font-size: 1.2rem;
     line-height: 2.25rem;
     margin-top: 1.5rem;
+    margin-bottom: 30px;
+    padding: 7px;
+    width: 475px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
     
     span {
-      color: var(--yellow-500);
-      font-weight: bold;
+      color: yellow;
+      
     }
   }
 
@@ -53,4 +61,8 @@
   @media(max-width: 800px){
     height: 5px;
   }
+}
+
+.image {
+  margin-top: 35px;
 }

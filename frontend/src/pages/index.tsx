@@ -13,8 +13,8 @@ export default function Home({ product }: HomeProps) {
   return (
     <div className={styles.background}>
       <Head>Home | API Periodic Table</Head>
-      <main className={ styles.contentContainer }>
-        <section className={ styles.hero }>
+      <main className={styles.contentContainer}>
+        <section className={styles.hero}>
           <span>🧪 Hey student</span>
           <h1>All the elements from <span>Periodic</span><br />Table :)</h1>
           <p><span>Super easy</span> for you use in your projects <span>through by API</span></p>
@@ -22,12 +22,14 @@ export default function Home({ product }: HomeProps) {
           {/* <SubscribeButton priceId={ product.priceId } amount={product.amount}/> */}
         </section>
 
-        <Image 
-          src="/img/hero.gif" 
-          alt="Scientist Crazy on Lab"
-          width={350}
-          height={350} 
-        />
+        <div className={styles.image}>
+          <Image
+            src="/img/hero.gif"
+            alt="Scientist Crazy on Lab"
+            width={300}
+            height={300}
+          />
+        </div>
       </main>
     </div>
   )
