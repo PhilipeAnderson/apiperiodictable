@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { github } from '../../services/periodicTable';
 
 import { FaGithub} from 'react-icons/fa';
 import { FiX } from 'react-icons/fi';
@@ -10,14 +11,23 @@ import styles from './styles.module.scss';
 export function SignInButton() {
 
   const [ isUserLoggedIn, setIsUserLoggedIn ] = useState(false)
+  const [ user, setUser ] = useState('')
 
   const changeLogged = () => {
-    setIsUserLoggedIn(true)
+    const typeUser = prompt('Digite seu usuário do GitHub')
+    if(typeUser){
+      setUser(typeUser)
+      setIsUserLoggedIn(true)
+    }
   }
 
-  useEffect(() => {
-    
-  })
+  useEffect(async() => {
+    if(isUserLoggedIn){
+      const user = await github.get(`/users/PhilipeAnderson`)
+      .then(response => response.data)
+      console.log(user)
+    }
+  }, )
 
 
   return isUserLoggedIn ? (
