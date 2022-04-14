@@ -59,6 +59,6 @@ export default function Howuse() {
         </div>
        ))}
        </section>
-    </main>
+    </main>                                   
   )
 }
