@@ -46,7 +46,7 @@ The url for query api is: https://apiperiodictable.herokuapp.com/ she is a JSON 
 <br/><br />
 
 <div align="center">
-  <img src="/assets/frontendII.JPG" alt="Image with data from API Table Periodic" width="1120" />  
+  <img src="/assets/frontendReadmeII.JPG" alt="Image with data from API Table Periodic" width="1120" />  
 </div>
 
 ## Technologies used!
