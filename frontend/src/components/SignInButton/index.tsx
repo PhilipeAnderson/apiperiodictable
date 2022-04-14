@@ -6,28 +6,30 @@ import { FiX } from 'react-icons/fi';
 
 import styles from './styles.module.scss';
 
-//const isUserLoggedIn = false;
 
 export function SignInButton() {
 
   const [ isUserLoggedIn, setIsUserLoggedIn ] = useState(false)
-  const [ user, setUser ] = useState('')
+  const [ userLogin, setUserLogin ] = useState<string>('')
 
   const changeLogged = () => {
     const typeUser = prompt('Digite seu usuário do GitHub')
     if(typeUser){
-      setUser(typeUser)
+      setUserLogin(typeUser)
       setIsUserLoggedIn(true)
     }
   }
 
-  useEffect(async() => {
-    if(isUserLoggedIn){
-      const user = await github.get(`/users/PhilipeAnderson`)
-      .then(response => response.data)
-      console.log(user)
+  useEffect(() => {
+    async function callApi(){
+      if(isUserLoggedIn){
+        const user = await github.get(`/users/${userLogin}`)
+        .then(response => response.data)
+        console.log(user)
+      }
     }
-  }, )
+    callApi()
+  }, [isUserLoggedIn])
 
 
   return isUserLoggedIn ? (
