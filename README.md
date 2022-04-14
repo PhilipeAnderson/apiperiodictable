@@ -45,6 +45,10 @@ The url for query api is: https://apiperiodictable.herokuapp.com/ she is a JSON 
 </div>
 <br/><br />
 
+<div align="center">
+  <img src="/assets/frontendII.JPG" alt="Image with data from API Table Periodic" width="1120" />  
+</div>
+
 ## Technologies used!
 
 The dependencies used in the project were:<br />
