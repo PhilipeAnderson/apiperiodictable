@@ -6,11 +6,11 @@ import { FiX } from 'react-icons/fi';
 
 import styles from './styles.module.scss';
 
-
 export function SignInButton() {
 
   const [ isUserLoggedIn, setIsUserLoggedIn ] = useState(false)
   const [ userLogin, setUserLogin ] = useState<string>('')
+  const [ dataObject, setDataObject ] = useState({})
 
   const changeLogged = () => {
     const typeUser = prompt('Digite seu usuário do GitHub')
@@ -25,7 +25,7 @@ export function SignInButton() {
       if(isUserLoggedIn){
         const user = await github.get(`/users/${userLogin}`)
         .then(response => response.data)
-        console.log(user)
+        setDataObject(user)
       }
     }
     callApi()
@@ -39,7 +39,7 @@ export function SignInButton() {
       
     >
       <FaGithub color="#04d361"/>
-      Philipe Anderson
+      {dataObject.name}
       <FiX color="#737380" className={ styles.closeIcon } onClick={() => setIsUserLoggedIn(false)}/>
     </button>   
   ) : (
