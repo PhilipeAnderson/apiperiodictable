@@ -20,6 +20,13 @@ export function SignInButton() {
     }
   }
 
+  const closeChangeLogged = () => {
+    setUserLogin('')
+    setIsUserLoggedIn(false)
+  }
+
+
+
   useEffect(() => {
     async function callApi(){
       if(isUserLoggedIn){
@@ -40,7 +47,11 @@ export function SignInButton() {
     >
       <FaGithub color="#04d361"/>
       {dataObject.name}
-      <FiX color="#737380" className={ styles.closeIcon } onClick={() => setIsUserLoggedIn(false)}/>
+      <FiX 
+        color="#737380" 
+        onClick={() => closeChangeLogged()}
+        className={ styles.closeIcon }
+      />
     </button>   
   ) : (
     <button 
