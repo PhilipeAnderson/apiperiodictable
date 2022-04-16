@@ -39,6 +39,7 @@ export default function Howuse() {
   useEffect(() => {
     setTimeout(() => {
       setElements(db)
+      setRemoveLoading(true)
     }, 1000)
   }, [])
 
