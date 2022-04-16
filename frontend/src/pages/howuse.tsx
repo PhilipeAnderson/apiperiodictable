@@ -10,7 +10,7 @@ interface ElementsProps {
     category: string,
     discovered: { by: string, year: number },
     group: number,
-    name: string,dshdjshjsdshjkdhhkjds
+    name: string,
     period: number,
     radioactive: boolean,
     standardState: number,
