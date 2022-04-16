@@ -7,3 +7,7 @@ export const periodic = axios.create({
 export const github = axios.create({
   baseURL: 'https://api.github.com'
 })
+
+export const db = axios.create({
+  baseURL: 'http://localhost:3000/'
+})
