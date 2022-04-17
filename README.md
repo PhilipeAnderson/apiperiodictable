@@ -10,6 +10,7 @@
 <br />
 
 ## This API was born out of the need to use periodic table data.
+<h3>DEPLOY: <a href="https://apiperiodictable-kt3px29c7-philipeanderson.vercel.app/howuse">API Periodic Table</a></h3>
 <div align="center">
   <img src="/assets/frontendReadme.JPG" alt="Image that represent Home page from project" width="1120px"/>
 </div>
