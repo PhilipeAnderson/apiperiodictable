@@ -18,7 +18,7 @@ export function Header() {
         </Link>
         
         <nav>
-          <Link href="/howuse">HowUse?</Link>
+          <Link href="/howuse">How Use?</Link>
         </nav>
 
         <SignInButton />
