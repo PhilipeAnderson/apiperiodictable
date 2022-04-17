@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-// import { periodic } from '../services/periodicTable';
+import { periodic } from '../services/periodicTable';
 import { Loading } from '../components/Loading';
 import styles from './howuse.module.scss';
 
-import { db } from '../db';
+//import { db } from '../db';
 
 interface ElementsProps {
   elements: {
@@ -25,23 +25,23 @@ export default function Howuse() {
   const [elements, setElements] = useState([]);
   const [removeLoading, setRemoveLoading] = useState(false);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     periodic.get('https://apiperiodictable.herokuapp.com/')
-  //     .then(response => {
-  //       setElements(response.data)
-  //       setRemoveLoading(true)
-  //     })
-  //   }, 300)
-  // }, [])
-
-
   useEffect(() => {
     setTimeout(() => {
-      setElements(db)
-      setRemoveLoading(true)
-    }, 1000)
+      periodic.get('https://apiperiodictable.herokuapp.com/')
+      .then(response => {
+        setElements(response.data)
+        setRemoveLoading(true)
+      })
+    }, 300)
   }, [])
+
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setElements(db)
+  //     setRemoveLoading(true)
+  //   }, 1000)
+  // }, [])
 
   return (
     <main className={styles.container}>
