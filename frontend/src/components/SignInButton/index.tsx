@@ -46,7 +46,8 @@ export function SignInButton() {
       
     >
       <FaGithub color="#04d361"/>
-      {dataObject.name}
+      {/* {dataObject.name} */}
+      Teste
       <FiX 
         color="#737380" 
         onClick={() => closeChangeLogged()}
