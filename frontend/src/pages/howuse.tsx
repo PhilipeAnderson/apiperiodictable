@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { periodic } from '../services/periodicTable';
 import { Loading } from '../components/Loading';
 import styles from './howuse.module.scss';
-import './howuse.module.scss';
+
 
 
 
@@ -42,7 +42,7 @@ useEffect(() => {
   setTimeout(() => {
     setElements(db)
     setRemoveLoading(true)
-  },1000)
+  },5000)
 })
 
 
@@ -53,7 +53,7 @@ useEffect(() => {
       <div className={styles.usageExamples}>
         <p>
           Just use tradicional methods of query a JSON document, you can set with axios or fetchAPI for javascript for exemple.
-          The url for query api is: https://apiperiodictable.herokuapp.com/ it's a JSON format.
+          The url for query api is: https://apiperiodictable.herokuapp.com/ its a JSON format.
         </p>
         {/* <div>
           <img src="/img/fetchapi.png" alt="example the use with fetch" />
