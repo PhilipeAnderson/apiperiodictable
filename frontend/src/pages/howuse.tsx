@@ -32,7 +32,7 @@ export default function Howuse() {
         setElements(response.data)
         setRemoveLoading(true)
       })
-    }, 3000)
+    }, 5000)
   }, [])
 
 
