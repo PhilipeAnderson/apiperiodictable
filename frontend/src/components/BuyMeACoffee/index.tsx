@@ -5,6 +5,7 @@ export function BuyMeACoffee() {
     <a 
       type="button"
       target="_blank"
+      rel="noreferrer"
       href="https://www.buymeacoffee.com/periodictable"
     >
       <Image 
