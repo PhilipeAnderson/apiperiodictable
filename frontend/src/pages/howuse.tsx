@@ -3,7 +3,7 @@ import { periodic } from '../services/periodicTable';
 import { Loading } from '../components/Loading';
 import styles from './howuse.module.scss';
 
-//import { db } from '../db';
+import { db } from '../db';
 
 interface ElementsProps {
   elements: {
@@ -25,23 +25,23 @@ export default function Howuse() {
   const [elements, setElements] = useState([]);
   const [removeLoading, setRemoveLoading] = useState(false);
 
-  useEffect(() => {
+ // useEffect(() => {
+   // setTimeout(() => {
+     // periodic.get('https://apiperiodictable.herokuapp.com/')
+     // .then(response => {
+     //   setElements(response.data)
+       // setRemoveLoading(true)
+     // })
+   // }, 5000)
+ // }, [])
+
+
+   useEffect(() => {
     setTimeout(() => {
-      periodic.get('https://apiperiodictable.herokuapp.com/')
-      .then(response => {
-        setElements(response.data)
-        setRemoveLoading(true)
-      })
+      setElements(db)
+      setRemoveLoading(true)
     }, 5000)
-  }, [])
-
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setElements(db)
-  //     setRemoveLoading(true)
-  //   }, 1000)
-  // }, [])
+   }, [])
 
   return (
     <main className={styles.container}>
@@ -59,16 +59,18 @@ export default function Howuse() {
       </div>
 
       {!removeLoading && <Loading />}
+      <div className={styles.div_body}>
       <section className={ styles.content }>
        {elements.map((element, index) => (
-         <div key={index}>
-          <h4>{element.atomicNumberZ}</h4> 
-          <h1>{element.symbol}</h1> 
+         <div className={'tabela-periodica--ico-' + element.atomicNumberZ} key={index}>
+          <h3>{element.atomicNumberZ}</h3> 
+        <h2 className={"symbol_" + element.symbol }>{element.symbol}</h2> 
           <h4>{element.atomicMass}</h4>
-          <h4>{element.name}</h4>
+          <h5>{element.name}</h5>
         </div>
        ))}
        </section>
+       </div>
     </main>                                   
   )
 }
