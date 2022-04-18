@@ -53,20 +53,23 @@ The url for query api is: https://apiperiodictable.herokuapp.com/ she is a JSON 
 ## Technologies used!
 
 The dependencies used in the project were:<br />
+
+npm install --global yarn
 ### Backend
-  * Express 
-  * Cors 
-  * Body-Parser
-  * Morgan
-  * Nodemon
+  * Express  = yarn add express
+  * Cors = yarn add cors
+  * Body-Parser = yarn add body-parser
+  * Morgan = yarn add morgan
+  * Nodemon = yarn add nodemon
   
  ### Frontend
-  * NextJS
-  * Typescript
-  * React-Dom
-  * React-Icons
-  * Stripe
-  * Sass
+  * NextJS = yarn add next
+  * Typescript = yarn add typescript
+  * React-Dom = yarn add create-react-app
+  * React-Icons = yarn add react-icons
+  * Stripe = yarn add stripe
+  * Sass = yarn add sass
+
 
 It was still necessary to install the Heroku CLI<br />
 Only after these steps was it possible to see the API working :)
