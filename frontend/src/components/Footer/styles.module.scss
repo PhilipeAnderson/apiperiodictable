@@ -1,20 +1,16 @@
 .container {
-  height: 250px;
-  margin: 0  auto;
-  max-width: 1080px;
-  background-color: var(--gray-900);
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: solid 2px #ffff;
+ // background-color: var(--gray-900);
 }
 
 .content {
+
   display: flex;
   align-items: center;
   justify-content: space-around;
 
-  section {
-
-    h3 {
-      text-align: center;
-      margin-bottom: 10px;
-    }
-  }
 }
