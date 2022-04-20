@@ -34,21 +34,21 @@ export function PeriodicTable() {
 
   return(
     <div className={styles.container}>
-    <div className={styles.table}>
-    {!removeLoading && <Loading />}
-      <div className={styles.div_body}>
-      <section className={ styles.content }>
-       {elements.map((element, index) => (
-         <div className={'tabela-periodica--ico-' + element.atomicNumberZ} key={index}>
-          <h3>{element.atomicNumberZ}</h3> 
-        <h2 className={"symbol_" + element.symbol }>{element.symbol}</h2> 
-          <h4>{element.atomicMass}</h4>
-          <h5>{element.name}</h5>
+      <div className={styles.table}>
+      {!removeLoading && <Loading />}
+        <div className={styles.div_body}>
+          <section className={ styles.content }>
+            {elements.map((element, index) => (
+              <div className={'tabela-periodica--ico-' + element.atomicNumberZ} key={index}>
+                <h3>{element.atomicNumberZ}</h3> 
+                <h2 className={"symbol_" + element.symbol }>{element.symbol}</h2> 
+                <h4>{element.atomicMass}</h4>
+                <h5>{element.name}</h5>
+              </div>
+            ))}
+          </section>
         </div>
-       ))}
-       </section>
-       </div>
-    </div>
+      </div>
     </div>
   )
 }
