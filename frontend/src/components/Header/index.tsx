@@ -19,6 +19,7 @@ export function Header() {
         
         <nav>
           <Link href="/howuse">HowUse?</Link>
+          <Link href="/documentation">Documentation</Link>
         </nav>
 
         <SignInButton />

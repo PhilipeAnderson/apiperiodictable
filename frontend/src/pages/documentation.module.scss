@@ -1,0 +1,37 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  aside {
+    width: 20%;
+    max-height: 100vh;
+    overflow-x: scroll;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #1e1e1e;
+
+    div {
+      margin-bottom: 20px;
+      
+      ul {
+        margin-left: 25px;
+      }
+      
+      a:hover {
+        color: #fede00;
+      }
+    }
+  }
+
+  section {
+    width: 80%;
+    height: 100vh;
+    padding: 20px;
+  }
+}

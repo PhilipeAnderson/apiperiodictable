@@ -25,7 +25,7 @@ export default function Home({ product }: HomeProps) {
         <div className={styles.image}>
           <Image
             src="/img/hero.gif"
-            alt="Scientist Crazy on Lab"
+            alt="Gif Animated"
             width={300}
             height={300}
           />
