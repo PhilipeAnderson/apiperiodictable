@@ -51,7 +51,7 @@ export default function Howuse() {
       <div className={styles.usageExamples}>
         <p>
           Just use tradicional methods of query a JSON document, you can set with axios or fetchAPI for javascript for exemple.
-          The url for query api is: https://apiperiodictable.herokuapp.com/ its a JSON format!
+          The url for query api is: <a href='https://apiperiodictable.herokuapp.com/' target="_blank" rel="noopener noreferrer"> Link API</a>  its a JSON format!
         </p>
         {/* <div>
           <img src="/img/fetchapi.png" alt="example the use with fetch" />
@@ -73,6 +73,8 @@ export default function Howuse() {
        ))}
        </section>
        </div> */}
-    </main>                                   
+    </main>  
+    
+    
   )
 }
