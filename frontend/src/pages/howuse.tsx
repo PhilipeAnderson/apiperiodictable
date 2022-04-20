@@ -1,47 +1,48 @@
-import { useState, useEffect } from 'react';
-import { periodic } from '../services/periodicTable';
-import { Loading } from '../components/Loading';
+//import { useState, useEffect } from 'react';
+//import { periodic } from '../services/periodicTable';
+//import { Loading } from '../components/Loading';
 import styles from './howuse.module.scss';
+import { PeriodicTable } from '../components/PeriodicTable'
 
-import { db } from '../db';
+//import { db } from '../db';
 
-interface ElementsProps {
-  elements: {
-    atomicMass: number,
-    atomicNumberZ: number,
-    category: string,
-    discovered: { by: string, year: number },
-    group: number,
-    name: string,
-    period: number,
-    radioactive: boolean,
-    standardState: number,
-    symbol: string,
-  }
-}
+// interface ElementsProps {
+//   elements: {
+//     atomicMass: number,
+//     atomicNumberZ: number,
+//     category: string,
+//     discovered: { by: string, year: number },
+//     group: number,
+//     name: string,
+//     period: number,
+//     radioactive: boolean,
+//     standardState: number,
+//     symbol: string,
+//   }
+// }
 
 export default function Howuse() {
 
-  const [elements, setElements] = useState([]);
-  const [removeLoading, setRemoveLoading] = useState(false);
+//   const [elements, setElements] = useState([]);
+//   const [removeLoading, setRemoveLoading] = useState(false);
 
- // useEffect(() => {
-   // setTimeout(() => {
-     // periodic.get('https://apiperiodictable.herokuapp.com/')
-     // .then(response => {
-     //   setElements(response.data)
-       // setRemoveLoading(true)
-     // })
-   // }, 5000)
- // }, [])
+//  useEffect(() => {
+//    setTimeout(() => {
+//      periodic.get('https://apiperiodictable.herokuapp.com/')
+//      .then(response => {
+//        setElements(response.data)
+//        setRemoveLoading(true)
+//      })
+//    }, 5000)
+//  }, [])
 
 
-   useEffect(() => {
-    setTimeout(() => {
-      setElements(db)
-      setRemoveLoading(true)
-    }, 5000)
-   }, [])
+//    useEffect(() => {
+//     setTimeout(() => {
+//       setElements(db)
+//       setRemoveLoading(true)
+//     }, 5000)
+//    }, [])
 
   return (
     <main className={styles.container}>
@@ -57,8 +58,9 @@ export default function Howuse() {
           <img src="/img/axios.png" alt="example the use with axios" />
         </div> */}
       </div>
+      <PeriodicTable />
 
-      {!removeLoading && <Loading />}
+      {/* {!removeLoading && <Loading />}
       <div className={styles.div_body}>
       <section className={ styles.content }>
        {elements.map((element, index) => (
@@ -70,7 +72,7 @@ export default function Howuse() {
         </div>
        ))}
        </section>
-       </div>
+       </div> */}
     </main>                                   
   )
 }
