@@ -1,19 +1,13 @@
 .container {
-  margin: 40px auto;
-  padding: 0 2rem;
-  //height: calc(100vh - 5rem);
-  
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-direction: column;
-  
-  h1 {
-    margin-bottom: 20px;
-  }
+display: flex;
+flex-direction: column;
 
+  h1 {
+    margin-top: 15px;
+  }
+  
   h2 {
-    margin-left: 30px;
+    margin-left: 5rem;
   }
 }
 
