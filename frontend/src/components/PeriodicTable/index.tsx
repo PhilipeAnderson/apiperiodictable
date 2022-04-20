@@ -33,7 +33,7 @@ export function PeriodicTable() {
    }, [])
 
   return(
-    <main className={styles.container}>
+    <div className={styles.container}>
     <div className={styles.table}>
     {!removeLoading && <Loading />}
       <div className={styles.div_body}>
@@ -49,6 +49,6 @@ export function PeriodicTable() {
        </section>
        </div>
     </div>
-    </main>
+    </div>
   )
 }
