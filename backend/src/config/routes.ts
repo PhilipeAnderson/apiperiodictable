@@ -1,8 +1,8 @@
-const express = require('express');
-const routes = express();
-const db = require('../database/database')
+import express, {Request, Response, NextFunction} from ('express');
+import routes from express();
+import db from ('../database/database')
 
-routes.get('/', (req, res) => {
+routes.get('/', (req: Request, res: Response, next: NextFunction) => {
   return res.json(db)
 });
 
