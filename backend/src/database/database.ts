@@ -488,7 +488,7 @@ const db = [
     atomicMass: 74.92,
     discovered: {
       by: 'Arabic alchemists',
-      year: -0815
+      year: -1815
     },
     period: 4,
     group: 15,
@@ -758,7 +758,7 @@ const db = [
     atomicMass: 121.76,
     discovered: {
       by: 'Arabic alchemists',
-      year: -0815
+      year: -1815
     },
     period: 5,
     group: 15,
