@@ -29,7 +29,7 @@ export function PeriodicTable() {
     setTimeout(() => {
       setElements(db)
       setRemoveLoading(true)
-    }, 100)
+    }, 2000)
    }, [])
 
   return(
