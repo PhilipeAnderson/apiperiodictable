@@ -1,9 +1,9 @@
-const express = require('express');
-const morgan = require('morgan');
-const cors = require('cors');
-const bodyParser = require('body-parser');
+import express from 'express';
+import morgan from 'morgan';
+import cors from 'cors';
+import bodyParser from 'body-parser';
 
-const routes = require('./config/routes');
+import routes from './config/routes';
 const app = express();
 
 app.use(morgan('dev'));
@@ -14,7 +14,7 @@ app.use(cors());
 app.use(routes);
 
 app.listen(3333, () => {
-  console.log('Started Server')
+  console.log('Server Working!')
 });
 
 module.exports = app;
