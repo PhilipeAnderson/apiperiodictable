@@ -12,7 +12,7 @@
 ## This API was born out of the need to use periodic table data.
 <h3>DEPLOY: <a href="https://apiperiodictable-kt3px29c7-philipeanderson.vercel.app/howuse">API Periodic Table</a></h3>
 <div align="center">
-  <img src="/assets/frontendReadme.JPG" alt="Image that represent Home page from project" width="1120px"/>
+  <img src="./assets/homepage.JPG" alt="Image that represent Home page from project" width="1120px"/>
 </div>
 
 <br />
@@ -40,14 +40,14 @@ The url for query api is: https://apiperiodictable.herokuapp.com/ she is a JSON 
 <br /><br />
 
 <div align="center">
-  <img src="/assets/fetchapi.png" alt="example the use with fetch" width="560px" />
+  <img src="./assets/fetchapi.png" alt="example the use with fetch" width="560px" />
   <br /><br />
-  <img src="/assets/axios.png" alt="example the use with axios" width="560px"/>
+  <img src="./assets/axios.png" alt="example the use with axios" width="560px"/>
 </div>
 <br/><br />
 
 <div align="center">
-  <img src="/assets/frontendReadmeII.JPG" alt="Image with data from API Table Periodic" width="1120" />  
+  <img src="./assets/tableRender.JPG" alt="Image with data from API Table Periodic" width="1120" />  
 </div>
 
 ## Technologies used!
