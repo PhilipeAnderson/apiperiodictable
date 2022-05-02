@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <NextAuthProvider session={pageProps.session}>
       <Header />
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       <Footer />
     </NextAuthProvider>
   )
