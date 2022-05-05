@@ -180,7 +180,10 @@ export default function Documentation() {
       </aside>
       <section className={styles.content}>
         <h1>Installation</h1>
-          <p>For use the Periodic Table API is very simple.</p>
+          <h3>For use the Periodic Table API is very simple.</h3>
+          <p>Just the project in which you want to run an API prepared for the data in JSON format.</p>
+          <p>No caso de Javascript</p>
+
       </section>
     </main>
   )
